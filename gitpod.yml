@@ -5,6 +5,7 @@ ports:
     onOpen: open-preview
 tasks:
   - name: gRPC
+    init: gitpod/init.sh
 vscode:
   extensions:
     - golang.go
