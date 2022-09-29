@@ -1,0 +1,10 @@
+image:
+  file: gitpod/.gitpod.dockerfile
+ports:
+  - port: 8080
+    onOpen: open-preview 
+tasks:
+  - name: gRPC
+vscode:
+  extensions:
+    - golang.go
